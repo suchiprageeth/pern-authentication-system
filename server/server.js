@@ -1,1 +1,1 @@
-const src = required('./src');
+const src = require('./src');
