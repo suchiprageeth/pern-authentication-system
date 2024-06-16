@@ -3,9 +3,11 @@ const { hash } = require('bcryptjs')
 
 exports.getUsers = async (req, res) => {
     try {
-        const {rows} = await db.query("SELECT * FROM users");
-        console.log(6, rows)
-        // res.json(users.rows);
+        const {rows} = await db.query("SELECT id,email FROM users");
+        res.status(200).json({
+            success: true,
+            users: rows
+        });
     } catch (err) {
         console.error(err.message);
     }
