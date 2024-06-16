@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const {getUsers, register, login} = require("../controllers/auth");
 const {registerValidation, loginValidation} = require("../validators/auth");
-const {validationMiddleware} = require("../middlewares/auth-middleware");
+const {validationMiddleware} = require("../middlewares/validations-middleware");
 const router = Router();
 
 router.get('/get-users', getUsers)
