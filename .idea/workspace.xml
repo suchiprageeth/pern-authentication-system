@@ -55,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
@@ -66,6 +66,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v20.12.2/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.dev" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
