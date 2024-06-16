@@ -1,10 +1,25 @@
-import React from 'react';
+import {
+    BrowserRouter,
+    Route,
+    Navigate,
+    Outlet,
+    Routes
+} from "react-router-dom";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello Wolrd!</h1>
-    </div>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+            </Routes>
+      </BrowserRouter>
   );
 }
 
