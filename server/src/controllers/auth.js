@@ -1,5 +1,7 @@
 const db = require('../db');
 const { hash } = require('bcryptjs')
+const{sign} = require('jsonwebtoken');
+const {SECRET} = require("../constants");
 
 exports.getUsers = async (req, res) => {
     try {
@@ -29,4 +31,26 @@ exports.register = async (req, res) => {
             message: 'Server Error'
         });
         }
+}
+
+exports.login = async (req, res) => {
+    let user = req.user;
+    let payload = {
+        id: user.id,
+        email: user.email
+    }
+    try {
+        // Assign JWT Token
+        const token = sign(payload, SECRET, {expiresIn: '1h'});
+        return res.status(200).cookie('token',token, {httpOnly:true}).json({
+            success:true,
+            message: 'Logged in successfully!',
+        });
+    } catch (err) {
+        console.error(err.message);
+        return res.status(500).json({
+            success: false,
+            message: 'Server Erro!r'
+        });
+    }
 }

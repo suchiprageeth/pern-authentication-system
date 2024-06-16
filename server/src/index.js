@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
 const {PORT} = require('./constants')
+const cookieParser = require('cookie-parser');
 
 // Initialized Middleware
 app.use(express.json());
+app.use(cookieParser());
 
 // Import Routes
 const authRoutes = require('./routes/auth');
