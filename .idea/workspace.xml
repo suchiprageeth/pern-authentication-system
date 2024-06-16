@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Refactor auth route to not to use userAuth middleware">
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/counter/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/counter/Counter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/counter/counterAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/counter/counterSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/counter/counterSlice.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
+    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Move readme file inside server folder">
+      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +39,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "npm.dev.executor": "Run",
+    "npm.start.executor": "Run",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
@@ -96,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718517624085</updated>
-      <workItem from="1718517625415" duration="1433000" />
+      <workItem from="1718517625415" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor auth route to not to use userAuth middleware">
       <option name="closed" value="true" />
@@ -106,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718517722997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initialize react, restructure front end folder and initialize bootstrap">
+      <option name="closed" value="true" />
+      <created>1718519166229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718519166229</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Move readme file inside server folder">
+      <option name="closed" value="true" />
+      <created>1718519358409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718519358409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refactor auth route to not to use userAuth middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor auth route to not to use userAuth middleware" />
+    <MESSAGE value="Initialize react, restructure front end folder and initialize bootstrap" />
+    <MESSAGE value="Move readme file inside server folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move readme file inside server folder" />
   </component>
 </project>
