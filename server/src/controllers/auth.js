@@ -27,8 +27,7 @@ exports.register = async (req, res) => {
     } catch (err) {
         console.error(err.message);
         return res.status(500).json({
-            success: false,
-            message: 'Server Error'
+            error: err.message
         });
         }
 }
@@ -49,8 +48,7 @@ exports.login = async (req, res) => {
     } catch (err) {
         console.error(err.message);
         return res.status(500).json({
-            success: false,
-            message: 'Server Erro!r'
+            error: err.message
         });
     }
 }
@@ -62,5 +60,19 @@ exports.protectedRoute = async (req, res) => {
         });
     } catch (err) {
         console.error(err.message);
+    }
+}
+
+exports.logout = async (req, res) => {
+    try {
+        return res.status(200).clearCookie('token', { httpOnly: true }).json({
+            success: true,
+            message: 'Logged out succefully',
+        })
+    } catch (error) {
+        console.log(error.message)
+        return res.status(500).json({
+            error: error.message,
+        })
     }
 }
