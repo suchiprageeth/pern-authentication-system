@@ -54,3 +54,13 @@ exports.login = async (req, res) => {
         });
     }
 }
+
+exports.protectedRoute = async (req, res) => {
+    try {
+        res.status(200).json({
+            info:"Protected Route",
+        });
+    } catch (err) {
+        console.error(err.message);
+    }
+}
