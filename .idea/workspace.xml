@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Install axios, react-router-dom packages">
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Register.jsx" afterDir="false" />
+    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Created relevant components and routes for them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
@@ -92,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718517624085</updated>
-      <workItem from="1718517625415" duration="2812000" />
+      <workItem from="1718517625415" duration="3236000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor auth route to not to use userAuth middleware">
       <option name="closed" value="true" />
@@ -126,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718519781571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created relevant components and routes for them">
+      <option name="closed" value="true" />
+      <created>1718520503795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718520503795</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +142,7 @@
     <MESSAGE value="Initialize react, restructure front end folder and initialize bootstrap" />
     <MESSAGE value="Move readme file inside server folder" />
     <MESSAGE value="Install axios, react-router-dom packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install axios, react-router-dom packages" />
+    <MESSAGE value="Created relevant components and routes for them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created relevant components and routes for them" />
   </component>
 </project>
