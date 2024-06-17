@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Implement Navbar and Layout components">
+    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Refactoring code and file format inorder to create auth slice">
+      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/authSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/counter/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/counter/Counter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/counter/counterAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/counter/counterSlice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/counter/counterSlice.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +96,7 @@
       <updated>1718517624085</updated>
       <workItem from="1718517625415" duration="4877000" />
       <workItem from="1718592353417" duration="13000" />
-      <workItem from="1718643910034" duration="1300000" />
+      <workItem from="1718643910034" duration="1573000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor auth route to not to use userAuth middleware">
       <option name="closed" value="true" />
@@ -159,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718644824941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactoring code and file format inorder to create auth slice">
+      <option name="closed" value="true" />
+      <created>1718645265487</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718645265487</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +177,7 @@
     <MESSAGE value="Created relevant components and routes for them" />
     <MESSAGE value="Creating private and restricted route components" />
     <MESSAGE value="Implement Navbar and Layout components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Navbar and Layout components" />
+    <MESSAGE value="Refactoring code and file format inorder to create auth slice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code and file format inorder to create auth slice" />
   </component>
 </project>
