@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Initializing redux by creating auth slice">
+      <change afterPath="$PROJECT_DIR$/client/src/api/authApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/slices/authSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/slices/authSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <updated>1718517624085</updated>
       <workItem from="1718517625415" duration="4877000" />
       <workItem from="1718592353417" duration="13000" />
-      <workItem from="1718643910034" duration="1735000" />
+      <workItem from="1718643910034" duration="2145000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor auth route to not to use userAuth middleware">
       <option name="closed" value="true" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718645530096</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initializing redux by creating auth slice">
+      <option name="closed" value="true" />
+      <created>1718645677290</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718645677290</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
