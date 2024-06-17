@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Created relevant components and routes for them">
+    <list default="true" id="cc72ceb5-24bf-4ca2-9bd6-580e73c52b9a" name="Changes" comment="Creating private and restricted route components">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2hwumyxkfqdfjVvqGxwfRch5Egf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,12 +39,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.12.2",
+    "javascript.nodejs.core.library.typings.version": "20.12.14",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/suchiru/.nvm/versions/node/v20.12.2/bin/node",
     "nodejs_package_manager_path": "yarn",
     "npm.dev.executor": "Run",
     "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/snap/webstorm/384/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,7 +58,7 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
@@ -69,8 +80,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="npm.start" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -88,7 +99,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718517624085</updated>
-      <workItem from="1718517625415" duration="3236000" />
+      <workItem from="1718517625415" duration="4877000" />
+      <workItem from="1718592353417" duration="13000" />
+      <workItem from="1718643910034" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor auth route to not to use userAuth middleware">
       <option name="closed" value="true" />
@@ -130,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718520503795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating private and restricted route components">
+      <option name="closed" value="true" />
+      <created>1718520881531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718520881531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +164,7 @@
     <MESSAGE value="Move readme file inside server folder" />
     <MESSAGE value="Install axios, react-router-dom packages" />
     <MESSAGE value="Created relevant components and routes for them" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created relevant components and routes for them" />
+    <MESSAGE value="Creating private and restricted route components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating private and restricted route components" />
   </component>
 </project>
